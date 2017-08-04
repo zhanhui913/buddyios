@@ -18,6 +18,20 @@
 		4401F51738A449A98CFB1243 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B358FF62AC48A0B317E0A5 /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		522118E339784FCA96885A45 /* CDVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D084BAE90747329542568F /* CDVCamera.m */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		7FCAA97B1F34EE9900E37DE0 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		7FCAA97C1F34EE9900E37DE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		7FCAA97D1F34EE9900E37DE0 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		7FCAA97F1F34EE9900E37DE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		7FCAA9801F34EE9900E37DE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		7FCAA9811F34EE9900E37DE0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		7FCAA9821F34EE9900E37DE0 /* UIImage+CropScaleOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89031FE6F9DB41EBBA003EB9 /* UIImage+CropScaleOrientation.m */; };
+		7FCAA9831F34EE9900E37DE0 /* CDVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D084BAE90747329542568F /* CDVCamera.m */; };
+		7FCAA9841F34EE9900E37DE0 /* CDVJpegHeaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F8FB9D63184D3295F73960 /* CDVJpegHeaderWriter.m */; };
+		7FCAA9851F34EE9900E37DE0 /* Flashlight.m in Sources */ = {isa = PBXBuildFile; fileRef = FC02AECADC864806BB453192 /* Flashlight.m */; };
+		7FCAA9871F34EE9900E37DE0 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		7FCAA9881F34EE9900E37DE0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B358FF62AC48A0B317E0A5 /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7FCAA9891F34EE9900E37DE0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B2500EA51C4266916A9350 /* CoreLocation.framework */; };
+		7FCAA98A1F34EE9900E37DE0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB00D0638C4464E88197EAF /* AVFoundation.framework */; };
 		998ABD3446594A238F7C5DB3 /* CDVJpegHeaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F8FB9D63184D3295F73960 /* CDVJpegHeaderWriter.m */; };
 		C199D566140146D9AA4F0233 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB00D0638C4464E88197EAF /* AVFoundation.framework */; };
 		E02F0990A4E148AF86C5D444 /* Flashlight.m in Sources */ = {isa = PBXBuildFile; fileRef = FC02AECADC864806BB453192 /* Flashlight.m */; };
@@ -45,6 +59,13 @@
 			remoteGlobalIDString = C0C01EB21E3911D50056E6CB;
 			remoteInfo = Cordova;
 		};
+		7FCAA9781F34EE9900E37DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +88,8 @@
 		560BDFBC680C48FC97B68541 /* UIImage+CropScaleOrientation.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "UIImage+CropScaleOrientation.h"; path = "cordova-plugin-camera/UIImage+CropScaleOrientation.h"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = HelloWorld/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		7CBD62B01C0D4FDA9D946DB0 /* CDVCamera.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVCamera.h; path = "cordova-plugin-camera/CDVCamera.h"; sourceTree = "<group>"; };
+		7FCAA98E1F34EE9900E37DE0 /* Target1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Target1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCAA98F1F34EE9900E37DE0 /* HelloWorld copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HelloWorld copy-Info.plist"; path = "/Users/zhan/Jostle/Buddybuild/buddyios/HelloWorld copy-Info.plist"; sourceTree = "<absolute>"; };
 		89031FE6F9DB41EBBA003EB9 /* UIImage+CropScaleOrientation.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CropScaleOrientation.m"; path = "cordova-plugin-camera/UIImage+CropScaleOrientation.m"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HelloWorld-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "HelloWorld-Info.plist"; path = "HelloWorld/HelloWorld-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
 		9D42A4BA34F74F56B27390EC /* Flashlight.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = Flashlight.h; path = "cordova-plugin-flashlight/Flashlight.h"; sourceTree = "<group>"; };
@@ -94,6 +117,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7FCAA9861F34EE9900E37DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCAA9871F34EE9900E37DE0 /* libCordova.a in Frameworks */,
+				7FCAA9881F34EE9900E37DE0 /* ImageIO.framework in Frameworks */,
+				7FCAA9891F34EE9900E37DE0 /* CoreLocation.framework in Frameworks */,
+				7FCAA98A1F34EE9900E37DE0 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -114,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* HelloWorld.app */,
+				7FCAA98E1F34EE9900E37DE0 /* Target1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +166,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				7FCAA98F1F34EE9900E37DE0 /* HelloWorld copy-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -235,6 +271,25 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* HelloWorld.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7FCAA9761F34EE9900E37DE0 /* Target1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FCAA98B1F34EE9900E37DE0 /* Build configuration list for PBXNativeTarget "Target1" */;
+			buildPhases = (
+				7FCAA9791F34EE9900E37DE0 /* Copy www directory */,
+				7FCAA97A1F34EE9900E37DE0 /* Resources */,
+				7FCAA97E1F34EE9900E37DE0 /* Sources */,
+				7FCAA9861F34EE9900E37DE0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FCAA9771F34EE9900E37DE0 /* PBXTargetDependency */,
+			);
+			name = Target1;
+			productName = HelloWorld;
+			productReference = 7FCAA98E1F34EE9900E37DE0 /* Target1.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -244,6 +299,9 @@
 				LastUpgradeCheck = 510;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = G3WFRVF6X2;
+					};
+					7FCAA9761F34EE9900E37DE0 = {
 						DevelopmentTeam = G3WFRVF6X2;
 					};
 				};
@@ -266,6 +324,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* HelloWorld */,
+				7FCAA9761F34EE9900E37DE0 /* Target1 */,
 			);
 		};
 /* End PBXProject section */
@@ -298,10 +357,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7FCAA97A1F34EE9900E37DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCAA97B1F34EE9900E37DE0 /* MainViewController.xib in Resources */,
+				7FCAA97C1F34EE9900E37DE0 /* Images.xcassets in Resources */,
+				7FCAA97D1F34EE9900E37DE0 /* CDVLaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			showEnvVarsInLog = 0;
+		};
+		7FCAA9791F34EE9900E37DE0 /* Copy www directory */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -333,6 +417,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7FCAA97E1F34EE9900E37DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCAA97F1F34EE9900E37DE0 /* main.m in Sources */,
+				7FCAA9801F34EE9900E37DE0 /* AppDelegate.m in Sources */,
+				7FCAA9811F34EE9900E37DE0 /* MainViewController.m in Sources */,
+				7FCAA9821F34EE9900E37DE0 /* UIImage+CropScaleOrientation.m in Sources */,
+				7FCAA9831F34EE9900E37DE0 /* CDVCamera.m in Sources */,
+				7FCAA9841F34EE9900E37DE0 /* CDVJpegHeaderWriter.m in Sources */,
+				7FCAA9851F34EE9900E37DE0 /* Flashlight.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -340,6 +438,11 @@
 			isa = PBXTargetDependency;
 			name = CordovaLib;
 			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+		7FCAA9771F34EE9900E37DE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 7FCAA9781F34EE9900E37DE0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -388,6 +491,56 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_NAME = HelloWorld;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FCAA98C1F34EE9900E37DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = G3WFRVF6X2;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "HelloWorld copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hello.target;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FCAA98D1F34EE9900E37DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5101AB8059700498E2A /* build-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = G3WFRVF6X2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "HelloWorld copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hello.target;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -451,6 +604,15 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FCAA98B1F34EE9900E37DE0 /* Build configuration list for PBXNativeTarget "Target1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCAA98C1F34EE9900E37DE0 /* Debug */,
+				7FCAA98D1F34EE9900E37DE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
